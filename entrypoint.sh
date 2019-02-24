@@ -5,3 +5,4 @@ if [ "$CERT_PEM" != "$KEY_PEM" ]; then
   echo -e "$KEY_PEM"  > key.pem
 fi
 ./v2ray
+  
